@@ -18,6 +18,7 @@
 		70EA7E5F2B04C8BE007A0677 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 70EA7E522B04C8BE007A0677 /* landmarkData.json */; };
 		70EA7E612B04C9DE007A0677 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7E602B04C9DE007A0677 /* ModelData.swift */; };
 		70EA7E632B04CF3F007A0677 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7E622B04CF3F007A0677 /* LandmarkRow.swift */; };
+		70EA7E652B04D0E2007A0677 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7E642B04D0E2007A0677 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		70EA7E522B04C8BE007A0677 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		70EA7E602B04C9DE007A0677 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		70EA7E622B04CF3F007A0677 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		70EA7E642B04D0E2007A0677 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				70EA7E1E2B04C2D1007A0677 /* MapView.swift */,
 				70EA7E202B04C6B3007A0677 /* DescriptionView.swift */,
 				70EA7E622B04CF3F007A0677 /* LandmarkRow.swift */,
+				70EA7E642B04D0E2007A0677 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				70EA7E1F2B04C2D1007A0677 /* MapView.swift in Sources */,
 				70EA7E0F2B04BF5A007A0677 /* LandmarksApp.swift in Sources */,
 				70EA7E1D2B04C211007A0677 /* CircleImageView.swift in Sources */,
+				70EA7E652B04D0E2007A0677 /* LandmarkList.swift in Sources */,
 				70EA7E212B04C6B3007A0677 /* DescriptionView.swift in Sources */,
 				70EA7E422B04C838007A0677 /* Landmark.swift in Sources */,
 				70EA7E632B04CF3F007A0677 /* LandmarkRow.swift in Sources */,

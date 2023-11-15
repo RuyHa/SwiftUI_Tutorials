@@ -9,7 +9,10 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+/**
+ Identifiable 를 추가하면 ID라는 값을 강제로 가져야만 한다.
+ */
+struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var park: String
