@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LandmarkRow: View {
+struct LandmarkRowView: View {
     
     var landmark: Landmark
     
@@ -28,11 +28,11 @@ struct LandmarkRow: View {
  아래와 같은 방식으로 이름도 지정이 가능하다.
  */
 #Preview("\(landmarks[0].name)") {
-    LandmarkRow(landmark: landmarks[0])
+    LandmarkRowView(landmark: landmarks[0])
 }
 
 #Preview("\(landmarks[1].name)") {
-    LandmarkRow(landmark: landmarks[1])
+    LandmarkRowView(landmark: landmarks[1])
 }
 
 /**
@@ -40,7 +40,7 @@ struct LandmarkRow: View {
  */
 #Preview("Group") {
     Group {
-        LandmarkRow(landmark: landmarks[0])
-        LandmarkRow(landmark: landmarks[1])
+        LandmarkRowView(landmark: landmarks[0])
+        LandmarkRowView(landmark: landmarks[1])
     }
 }
