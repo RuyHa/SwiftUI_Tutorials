@@ -12,7 +12,7 @@ import SwiftUI
 /**
  프로젝트가 시작되는 지점
  */
-struct SwiftUI_TutorialsApp: App {
+struct LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
