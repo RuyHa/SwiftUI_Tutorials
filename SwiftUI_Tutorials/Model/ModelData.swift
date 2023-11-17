@@ -11,6 +11,11 @@ import Foundation
  Json 파일을 읽어오는 부분인것 같다.
  */
 
+@Observable
+class ModelData{
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
+
 var landmarks: [Landmark] = load("landmarkData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {

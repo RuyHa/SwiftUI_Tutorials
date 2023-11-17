@@ -13,9 +13,12 @@ import SwiftUI
  프로젝트가 시작되는 지점
  */
 struct LandmarksApp: App {
+    @State private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(modelData)
         }
     }
 }

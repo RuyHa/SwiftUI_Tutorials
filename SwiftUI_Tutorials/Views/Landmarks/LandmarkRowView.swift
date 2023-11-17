@@ -19,6 +19,11 @@ struct LandmarkRowView: View {
             Text(landmark.name)
             
             Spacer()
+            
+            if landmark.isFavorite == true {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.orange)
+            }
         }
     }
 }
@@ -39,7 +44,8 @@ struct LandmarkRowView: View {
  그룹으로 묶어서 볼 수도 있다.
  */
 #Preview("Group") {
-    Group {
+    let landmarks = ModelData().landmarks
+    return Group {
         LandmarkRowView(landmark: landmarks[0])
         LandmarkRowView(landmark: landmarks[1])
     }
