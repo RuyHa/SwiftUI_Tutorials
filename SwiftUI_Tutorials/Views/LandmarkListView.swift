@@ -21,6 +21,8 @@ struct LandmarkListView: View {
             }
             .navigationTitle("Landmarks")
         } detail: {
+            //패드로 볼때 메뉴에서 선택 하라고 나옴
+            // 기본값은 메뉴가 숨겨져 있음
             Text("Select a Landmark")
         }
 
